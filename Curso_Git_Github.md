@@ -52,5 +52,4 @@ Primero debemos incializar y crear repositorio, esto se logra con git init.
 
 * **git config --global alias.nombreDelNuevoComando "el comando que va a ejecutar" (git config --global alias.tree " log --graph --decorate --all --oneline")**: Esto nos ayuda a resumir comados con paralabras como en este caso tree y no tener que aprendernos comandos largos
 
-* **git diff**: Nos dice que cambios ha hecho en que fichero.
-
+* **git diff**: Nos dice que cambios ha hecho en que ficheros.
