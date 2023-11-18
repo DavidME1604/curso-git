@@ -63,3 +63,16 @@ Primero debemos incializar y crear repositorio, esto se logra con git init.
 * **git reflog**: Es el hisotrial de todo, si hacemos un reset --hard, pues ahi sigue el hash de nuestro ultimo commit, no se borra.
 
 * **git tag**: Anadimos como vinetas que marcan puntos importantes de nuestra rama. Generalmente por convension se pone todo en minusculas y espacios con _.
+
+* **git checkout tags/nombreTag**: Me mueve al commit que tenga el nombre del tag
+
+Hasta aqui se ha trabajado con una rama
+
+---
+Creando ramas
+
+* **git branch nombreRama**: Crea nuevas ramas
+* **git switch**: Cambia entre ramas.
+
+![Flujo de git con dos ramas](img/Screenshot%202023-11-18%20095449.png)
+
