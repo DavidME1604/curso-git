@@ -87,6 +87,7 @@ Creando ramas
 * **git stash pop**: Recupera lo del stash
 
 * **git stash drop**: Borra lo que este en el stash
+
 * **git branch -d**: Acabo de desarrollar la future, mergeo las ramas y ahi si utilizo esto para eliminar la rama.
 
 Hasta ahora Git no ayudado hacer versiones de forma local
@@ -98,3 +99,8 @@ Hasta ahora Git no ayudado hacer versiones de forma local
 ## Que es?
 
 Es una plataforma que corre por debajo Git, pero funciona de forma remota y me hace posible ver las versiones que hecho de mi codigo.
+
+* **git push**: Es para subir el proyecto
+* **git push -u origin main**: Configurando a donde va a subir (esto se hace solo por primera vez)
+* **git fetch**: Descarga el historial de cambios pero no los cambios
+* **git pull**: Descarga los cambios
