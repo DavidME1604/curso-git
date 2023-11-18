@@ -3,9 +3,6 @@
 Git es independiente de GitHUb, pero GitHub si depende de Git
 
 ---
-
-## Que es git?
-
 Git es un sistema de control de versiones distribuido.
 Nos ayuda a llevar los historiales de nuestros proyecto. Existe una linea de tiempo en la que podemos incluso volver a versiones anteriores de nuestros proyectos.
 
@@ -96,12 +93,16 @@ Hasta ahora Git no ayudado hacer versiones de forma local
 
 ## GitHub
 
-## Que es?
-
 Es una plataforma que corre por debajo Git, pero funciona de forma remota y me hace posible ver las versiones que hecho de mi codigo.
 
 * **git push**: Es para subir el proyecto
 * **git push -u origin main**: Configurando a donde va a subir (esto se hace solo por primera vez)
 * **git fetch**: Descarga el historial de cambios pero no los cambios
 * **git pull**: Descarga los cambios.
-* **git clone (ssh)**: Clona el repositorio 
+* **git clone (ssh)**: Clona el repositorio
+* **fork**: Ayuda a clonar un proyecto de otra persona en tu github
+* **pull request**: Los pull request lo hace una persona por afuera del repositorio, que tiene que aprobar el dueno del repositorio
+
+## Git flow
+
+Es una manera de utilizar el git, porque si bien el trabajar en el main es una opcion, no es una buena idea, porque al tener bugs, errores, etc, hace que el trabajar en main pueda ser un riego, porque hay que pensar que podemos danar el proyecto al implementar algo que cause errores en otra partes del codigo. Por eso se usa git flow
