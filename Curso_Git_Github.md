@@ -76,3 +76,4 @@ Creando ramas
 
 ![Flujo de git con dos ramas](img/Screenshot%202023-11-18%20095449.png)
 
+* **git merge**: Fusiona ramas.
