@@ -52,7 +52,7 @@ Primero debemos incializar y crear repositorio, esto se logra con git init.
 
 * **git config --global alias.nombreDelNuevoComando "el comando que va a ejecutar" (git config --global alias.tree " log --graph --decorate --all --oneline")**: Esto nos ayuda a resumir comados con paralabras como en este caso tree y no tener que aprendernos comandos largos
 
-* **git diff**: Nos dice que cambios ha hecho en que ficheros.\
+* **git diff**: Nos dice que cambios ha hecho en que ficheros. Tambien sirve para comparar ramas.
 
 * **git checkout (y el hash del commit)**: Nos ayuda a movernos en la rama y a volver a los commits anteriores para volver a versiones anteriores.
 
@@ -83,3 +83,7 @@ Creando ramas
 * **git stash**: Cuando me quiero cmabiar de rama, pero estaba desarrollando y no quiero hacer commit porque no he acabado, pero tambpoco quiero perder el avance
 
 * **git stash list**: muestra si tenemos un cambio guardado en local pero pendiente de commit
+
+* **git stash pop**: Recupera lo del stash
+
+* **git stash drop**: Borra lo que este en el stash
