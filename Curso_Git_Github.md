@@ -52,4 +52,14 @@ Primero debemos incializar y crear repositorio, esto se logra con git init.
 
 * **git config --global alias.nombreDelNuevoComando "el comando que va a ejecutar" (git config --global alias.tree " log --graph --decorate --all --oneline")**: Esto nos ayuda a resumir comados con paralabras como en este caso tree y no tener que aprendernos comandos largos
 
-* **git diff**: Nos dice que cambios ha hecho en que ficheros.
+* **git diff**: Nos dice que cambios ha hecho en que ficheros.\
+
+* **git checkout (y el hash del commit)**: Nos ayuda a movernos en la rama y a volver a los commits anteriores para volver a versiones anteriores.
+
+* **git checkout head**: esto le indica que ahora nuestro head es el commit en el que nos encontramos.
+
+* **git reset --hard hashCommit**: Si la fregue en el codigo y quiero regresarme a un commit y borrar los anteriores commits, pero ojo si nos equivoco y quiero volver al commit pues hago otra vez el mismo comando y va para adelante.
+
+* **git reflog**: Es el hisotrial de todo, si hacemos un reset --hard, pues ahi sigue el hash de nuestro ultimo commit, no se borra.
+
+* **git tag**: Anadimos como vinetas que marcan puntos importantes de nuestra rama. Generalmente por convension se pone todo en minusculas y espacios con _.
