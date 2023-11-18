@@ -79,3 +79,7 @@ Creando ramas
 * **git merge**: Fusiona ramas.
 
 ![Flujo de git con dos ramas](img/Screenshot%202023-11-18%20100458.png)
+
+* **git stash**: Cuando me quiero cmabiar de rama, pero estaba desarrollando y no quiero hacer commit porque no he acabado, pero tambpoco quiero perder el avance
+
+* **git stash list**: muestra si tenemos un cambio guardado en local pero pendiente de commit
