@@ -103,4 +103,5 @@ Es una plataforma que corre por debajo Git, pero funciona de forma remota y me h
 * **git push**: Es para subir el proyecto
 * **git push -u origin main**: Configurando a donde va a subir (esto se hace solo por primera vez)
 * **git fetch**: Descarga el historial de cambios pero no los cambios
-* **git pull**: Descarga los cambios
+* **git pull**: Descarga los cambios.
+* **git clone (ssh)**: Clona el repositorio 
